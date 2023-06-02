@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+.faded:not(.faded--hidden) {
+  animation: fadeIn 2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
+.crazy0{
+  --c: no-repeat linear-gradient(#8d13ff 0 0);
+  background: 
+    var(--c) calc(-100% + var(--p, 0%)) 100% / 50% var(--p, .08em),
+    var(--c) calc( 200% - var(--p, 0%)) 0    / 50% var(--p, .08em);
+  transition: .3s var(--t, 0s), background-position .3s calc(.3s - var(--t, 0s));
+  -webkit-box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.4);
+  pointer-events: initial;
+  user-select: none;
+  color: black;
+}
+.crazy0:hover{
+  --p: 100%;
+  --t: 0.3s;
+  color: white;
+}
+.crazy1{
+  --c: no-repeat linear-gradient(#826fff 0 0);
+  background: 
+    var(--c) calc(-100% + var(--p, 0%)) 100% / 50% var(--p, .08em),
+    var(--c) calc( 200% - var(--p, 0%)) 0    / 50% var(--p, .08em);
+  transition: .3s var(--t, 0s), background-position .3s calc(.3s - var(--t, 0s));
+  -webkit-box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.4);
+  pointer-events: initial;
+  user-select: none;
+  color: white;
+}
+.crazy1:hover{
+  --p: 100%;
+  --t: 0.3s;
+  color: black;
+}
+.crazy2{
+  --c: no-repeat linear-gradient(#0f016c 0 0);
+  background: 
+    var(--c) calc(-100% + var(--p, 0%)) 100% / 50% var(--p, .08em),
+    var(--c) calc( 200% - var(--p, 0%)) 0    / 50% var(--p, .08em);
+  transition: .3s var(--t, 0s), background-position .3s calc(.3s - var(--t, 0s));
+  -webkit-box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.4);
+  pointer-events: initial;
+  user-select: none;
+  color: black;
+}
+.crazy2:hover{
+  --p: 100%;
+  --t: 0.3s;
+  color: white;
+}
