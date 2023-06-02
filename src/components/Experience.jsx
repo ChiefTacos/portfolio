@@ -9,7 +9,7 @@ export const Experience = () => {
             <pointLight position={[5, 15, 10]} intensity={0.6}  />
             <pointLight position={[-10, 15, -10]} intensity={0.6}  />
             
-            <OrbitControls  enableZoom={false} enablePan={false} enableRotate={true}  />
+            <OrbitControls  enableZoom={false} enablePan={false} enableRotate={false}  />
             <ScrollControls pages={4} damping={0.1} >
               <Overlay  />
               <Office  />
