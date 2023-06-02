@@ -13,7 +13,7 @@ function App() {
       // fov:54,
       // position: [2.3, 1.5, 2.3]}}
     
-       orthographic camera={{ position: [17, 11, 13], left: -200, right: 200,top: 200, bottom: -200, zoom: 450 }}
+       orthographic camera={{  position: [17, 11, 13], left: -200, right: 200,top: 200, bottom: -200, zoom: 450 }}
     >
       <Suspense fallback={null}> <Experience /> </Suspense>
      
